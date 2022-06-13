@@ -1,0 +1,102 @@
+@media (min-width: 750px) {
+  /*index*/
+  body header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  header .logo-preta-barbearia {
+    width: 22rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
+  }
+
+  nav ul.itens-nav {
+    margin-right: 9rem;
+  }
+
+  nav ul.itens-nav a {
+    font-size: 2.4rem;
+  }
+
+  .itens-nav li:first-child {
+    margin-left: 1rem;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  section.about,
+  section.map {
+    padding-inline: 7rem;
+  }
+
+  section.map .map-conteudo {
+    width: 80%;
+    margin: 2rem auto 0 auto;
+    padding-bottom: 3rem;
+  }
+
+  /*beneficios*/
+  .conteudo-beneficios {
+    margin: 1rem auto 0 auto;
+    display: flex;
+    width: 640px;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
+  .conteudo-beneficios ul {
+    width: 40%;
+    padding-right: 3rem;
+  }
+
+  img.imagem-beneficios {
+    width: 60%;
+  }
+
+  .video {
+    width: 65rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    height: 360;
+  }
+
+  /*contato*/
+  div.dados {
+    margin-left: 1rem;
+  }
+
+  fieldset {
+    margin: 1rem 3rem 0;
+  }
+
+  form .dados input,
+  form .dados textarea {
+    width: 50%;
+  }
+
+  .horario .enviar {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  /*produtos*/
+  main .produtos {
+    margin: 4rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    align-content: center;
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+  }
+
+  .div-products .produtos li {
+    margin: 2rem 1rem;
+  }
+}
